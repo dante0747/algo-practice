@@ -1,8 +1,8 @@
-package dev.coderator.algopractice.impl;
-
-import org.junit.jupiter.api.Test;
+package dev.coderator.algopractice.datastructure;
 
 import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 

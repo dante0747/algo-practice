@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.impl;
+package dev.coderator.algopractice.datastructure;
 
 public class Array {
 
