@@ -16,10 +16,13 @@ solution and some unit tests that cover the edge cases.
 BTW, any contribution to make the solutions efficient and optimized is very welcome 😉
 
 ## Programming Language
-**Java** 😎
+**Java 8** 😎
 
 ## References
 - [Ultimate Data Structures & Algorithms course by Mosh Hamedani](https://codewithmosh.com/p/data-structures-algorithms)
 
-## Note
-This repo is under development and is not completed yet!
+## Status: Under Development
+
+Implemented data structures: **Array**
+
+Number of exercises: **0**
