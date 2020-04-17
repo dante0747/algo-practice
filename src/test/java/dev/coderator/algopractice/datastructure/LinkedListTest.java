@@ -108,6 +108,20 @@ class LinkedListTest {
 		assertEquals("[15, -6, 9, 1, 5, 2, 0, -1, 8]", Arrays.toString(list().toArray()));
 	}
 
+	@Test
+	void reverse() {
+		LinkedList list = list();
+		list.reverse();
+		assertEquals("[8, -1, 0, 2, 5, 1, 9, -6, 15]", Arrays.toString(list.toArray()));
+		assertEquals("[]", Arrays.toString(new LinkedList().toArray()));
+
+		list = new LinkedList();
+		list.addFirst(1);
+		list.reverse();
+		assertEquals("[1]", Arrays.toString(list.toArray()));
+
+	}
+
 	private LinkedList list() {
 
 		LinkedList list = new LinkedList();

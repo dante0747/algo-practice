@@ -78,7 +78,7 @@ public class LinkedList {
 		if (isEmpty())
 			throw new NoSuchElementException("the linked list is empty!");
 
-		if (first == last)
+		if (hasOneItem())
 			first = last = null;
 		else {
 			Node tmpNode = first;
@@ -93,7 +93,7 @@ public class LinkedList {
 		if (isEmpty())
 			throw new NoSuchElementException("the linked list is empty!");
 
-		if (first == last)
+		if (hasOneItem())
 			first = last = null;
 		else {
 			Node previous = previous(last);
@@ -102,6 +102,10 @@ public class LinkedList {
 		}
 
 		size--;
+	}
+
+	private boolean hasOneItem() {
+		return first == last && !isEmpty();
 	}
 
 	private Node previous(Node node) {
@@ -131,6 +135,27 @@ public class LinkedList {
 		}
 
 		return array;
+	}
+
+	public void reverse() {
+		if (isEmpty() || hasOneItem())
+			return;
+
+		Node previous = first;
+		Node current = first.next;
+		Node next = current.next;
+
+		while (Objects.nonNull(next)) {
+			current.next = previous;
+			previous = current;
+			current = next;
+			next = next.next;
+		}
+
+		last = first;
+		first = current;
+		first.next = previous;
+		last.next = null;
 	}
 }
 
