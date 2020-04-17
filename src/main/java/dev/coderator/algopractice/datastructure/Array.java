@@ -1,5 +1,7 @@
 package dev.coderator.algopractice.datastructure;
 
+import java.util.NoSuchElementException;
+
 public class Array {
 
 	private int count;
@@ -29,7 +31,7 @@ public class Array {
 			if (items[i] == number)
 				return i;
 
-		throw new RuntimeException(String.format("item not found: %d", number));
+		throw new NoSuchElementException(String.format("item not found: %d", number));
 	}
 
 	public void removeAt(int index) {

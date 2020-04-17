@@ -1,6 +1,7 @@
 package dev.coderator.algopractice.datastructure;
 
 import java.util.Arrays;
+import java.util.NoSuchElementException;
 
 import org.junit.jupiter.api.Test;
 
@@ -27,7 +28,7 @@ class ArrayTest {
 		assertEquals(4, array.indexOf(0));
 		assertEquals(2, array.indexOf(6));
 
-		RuntimeException ex = assertThrows(RuntimeException.class, () -> array.indexOf(10));
+		NoSuchElementException ex = assertThrows(NoSuchElementException.class, () -> array.indexOf(10));
 		assertEquals("item not found: 10", ex.getMessage());
 	}
 
