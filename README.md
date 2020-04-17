@@ -23,6 +23,6 @@ BTW, any contribution to make the solutions efficient and optimized is very welc
 
 ## Status: Under Development
 
-Implemented data structures: **Array**
+Implemented data structures: **Array**, **Linked List**
 
 Number of exercises: **0**
