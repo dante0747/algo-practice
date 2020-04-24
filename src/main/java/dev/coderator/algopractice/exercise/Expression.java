@@ -16,10 +16,9 @@ public class Expression {
 		for (char ch : expression.toCharArray())
 			if (isLeftBracket(ch))
 				stack.push(ch);
-			else if (isRightBracket(ch)) {
-				if (stack.isEmpty() || !match(stack.pop(), ch))
-					return false;
-			}
+			else if (isRightBracket(ch) &&
+					(stack.isEmpty() || !match(stack.pop(), ch)))
+				return false;
 
 		return true;
 	}
