@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.exercise;
+package dev.coderator.algopractice.exercise._1;
 
 import java.util.Objects;
 import java.util.Stack;

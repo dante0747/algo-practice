@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.exercise;
+package dev.coderator.algopractice.exercise._2;
 
 import java.util.*;
 

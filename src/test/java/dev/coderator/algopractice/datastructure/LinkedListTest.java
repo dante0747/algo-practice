@@ -121,17 +121,6 @@ class LinkedListTest {
 		assertEquals("[1]", Arrays.toString(list.toArray()));
 	}
 
-	@Test
-	void kthFromTheEnd() {
-		assertEquals(8, list().kthFromTheEnd(1));
-		assertEquals(5, list().kthFromTheEnd(5));
-		assertEquals(15, list().kthFromTheEnd(9));
-		assertThrows(IllegalArgumentException.class, () -> list().kthFromTheEnd(-1));
-		assertThrows(IllegalArgumentException.class, () -> list().kthFromTheEnd(0));
-		assertThrows(IllegalArgumentException.class, () -> list().kthFromTheEnd(100));
-		assertThrows(IllegalStateException.class, () -> new LinkedList().kthFromTheEnd(2));
-	}
-
 	private LinkedList list() {
 		LinkedList list = new LinkedList();
 

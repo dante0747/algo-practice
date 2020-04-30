@@ -157,28 +157,5 @@ public class LinkedList {
 		first.next = previous;
 		last.next = null;
 	}
-
-	public int kthFromTheEnd(int k) {
-
-		if(isEmpty())
-			throw new IllegalStateException("the linked list is empty!");
-
-		if(k < 1)
-			throw new IllegalArgumentException();
-
-		int counter = 0;
-		Node current = first;
-		Node target = first;
-		while (Objects.nonNull(current)) {
-			if (counter++ >= k)
-				target = target.next;
-			current = current.next;
-		}
-
-		if(counter < k)
-			throw new IllegalArgumentException();
-
-		return target.value;
-	}
 }
 
