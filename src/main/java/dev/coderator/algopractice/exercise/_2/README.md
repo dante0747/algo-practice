@@ -16,7 +16,7 @@ Types of brackets: () {} [] <>
 [({ >)] ❌
 
 #### Difficulty 
-2/5 😊
+2/5 🙂
 
 #### Get Involved
 Any contribution to the question, samples, solution, and tests are welcomed and appreciated. 😉
