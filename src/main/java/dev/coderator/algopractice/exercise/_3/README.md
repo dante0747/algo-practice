@@ -10,7 +10,7 @@ k: 1 / result: 8
 k: 5 / result: 5  
 
 #### Difficulty 
-2/5 😊
+2/5 🙂
 
 #### Get Involved
 Any contribution to the question, samples, solution, and tests are welcomed and appreciated. 😉
