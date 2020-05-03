@@ -20,11 +20,19 @@ public class StackifyQueue {
 		if (isEmpty())
 			throw new IllegalStateException();
 
+		transfer();
+		return stack2.pop();
+	}
+
+	public int peek() {
+		transfer();
+		return stack2.peek();
+	}
+
+	private void transfer() {
 		if (stack2.isEmpty())
 			while (!stack1.isEmpty())
 				stack2.push(stack1.pop());
-
-		return stack2.pop();
 	}
 
 	public boolean isEmpty() {

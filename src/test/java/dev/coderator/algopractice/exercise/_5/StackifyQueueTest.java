@@ -2,6 +2,7 @@ package dev.coderator.algopractice.exercise._5;
 
 import java.util.Arrays;
 
+import dev.coderator.algopractice.datastructure.ArrayQueue;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -34,6 +35,13 @@ class StackifyQueueTest {
 		assertEquals(5, queue.dequeue());
 		assertEquals("[]", Arrays.toString(queue.toArray()));
 		assertThrows(IllegalStateException.class, () -> queue.dequeue());
+	}
+
+	@Test
+	void peek() {
+		StackifyQueue queue = queue();
+		assertEquals(1, queue.peek());
+		assertEquals(1, queue.peek());
 	}
 
 	@Test
