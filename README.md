@@ -23,6 +23,6 @@ BTW, any contribution to make the solutions efficient and optimized is very welc
 
 ## Status: Under Development
 
-Implemented data structures: **Array**, **Linked List**, **Stack**, **Queue**
+Implemented data structures: **Array**, **Linked List**, **Stack**, **Queue**, **Priority Queue**
 
 Number of exercises: **5**
