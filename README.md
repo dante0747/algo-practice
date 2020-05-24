@@ -25,4 +25,4 @@ BTW, any contribution to make the solutions efficient and optimized is very welc
 
 Implemented data structures: **Array**, **Linked List**, **Stack**, **Queue**, **Priority Queue**
 
-Number of exercises: **6**
+Number of exercises: **7**
