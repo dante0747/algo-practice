@@ -19,7 +19,7 @@ public class LinkedList {
 	private int size;
 
 	public void addFirst(int item) {
-		Node node = new Node(item);
+		var node = new Node(item);
 
 		if (isEmpty())
 			first = last = node;
@@ -32,7 +32,7 @@ public class LinkedList {
 	}
 
 	public void addLast(int item) {
-		Node node = new Node(item);
+		var node = new Node(item);
 
 		if (isEmpty())
 			first = last = node;
@@ -49,8 +49,8 @@ public class LinkedList {
 	}
 
 	public int indexOf(int item) {
-		int index = 0;
-		Node current = first;
+		var index = 0;
+		var current = first;
 
 		while (Objects.nonNull(current)) {
 			if (current.value == item)
@@ -63,7 +63,7 @@ public class LinkedList {
 	}
 
 	public boolean contains(int item) {
-		Node current = first;
+		var current = first;
 
 		while (Objects.nonNull(current)) {
 			if (current.value == item)
@@ -81,7 +81,7 @@ public class LinkedList {
 		if (hasOneItem())
 			first = last = null;
 		else {
-			Node tmpNode = first;
+			var tmpNode = first;
 			first = first.next;
 			tmpNode.next = null;
 		}
@@ -96,7 +96,7 @@ public class LinkedList {
 		if (hasOneItem())
 			first = last = null;
 		else {
-			Node previous = previous(last);
+			var previous = previous(last);
 			last = previous;
 			last.next = null;
 		}
@@ -110,7 +110,7 @@ public class LinkedList {
 
 	private Node previous(Node node) {
 		Node previous = null;
-		Node current = first;
+		var current = first;
 
 		while (current != node) {
 			previous = current;
@@ -124,10 +124,10 @@ public class LinkedList {
 	}
 
 	public int[] toArray() {
-		int[] array = new int[size];
+		var array = new int[size];
 
-		int index = 0;
-		Node current = first;
+		var index = 0;
+		var current = first;
 
 		while (current != null) {
 			array[index++] = current.value;
@@ -141,9 +141,9 @@ public class LinkedList {
 		if (isEmpty() || hasOneItem())
 			return;
 
-		Node previous = first;
-		Node current = first.next;
-		Node next = current.next;
+		var previous = first;
+		var current = first.next;
+		var next = current.next;
 
 		while (Objects.nonNull(next)) {
 			current.next = previous;

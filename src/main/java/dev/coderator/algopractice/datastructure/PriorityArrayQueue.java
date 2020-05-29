@@ -3,7 +3,6 @@ package dev.coderator.algopractice.datastructure;
 public class PriorityArrayQueue {
 
 	private int count;
-
 	private int[] items;
 
 	public PriorityArrayQueue(int capacity) {
@@ -46,8 +45,8 @@ public class PriorityArrayQueue {
 	}
 
 	public int[] toArray() {
-		int[] result = new int[count];
-		for (int i = 0; i < count; i++)
+		var result = new int[count];
+		for (var i = 0; i < count; i++)
 			result[i] = items[i % count];
 
 		return result;

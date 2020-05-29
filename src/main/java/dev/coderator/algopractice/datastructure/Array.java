@@ -19,15 +19,15 @@ public class Array {
 	}
 
 	private void reconstruct() {
-		int[] tmpArray = new int[items.length * 2];
-		for (int i = 0; i < items.length; i++)
+		var tmpArray = new int[items.length * 2];
+		for (var i = 0; i < items.length; i++)
 			tmpArray[i] = items[i];
 
 		items = tmpArray;
 	}
 
 	public int indexOf(int number) {
-		for (int i = 0; i < items.length; i++)
+		for (var i = 0; i < items.length; i++)
 			if (items[i] == number)
 				return i;
 
@@ -38,14 +38,14 @@ public class Array {
 		if (index >= count || index < 0)
 			throw new IndexOutOfBoundsException(String.format("index %d is out of range!", index));
 
-		for (int i = index; i < items.length - 1; i++)
+		for (var i = index; i < items.length - 1; i++)
 			items[i] = items[i + 1];
 		count--;
 	}
 
 	public int[] items() {
-		int[] tmpArray = new int[count];
-		for (int i = 0; i < count; i++)
+		var tmpArray = new int[count];
+		for (var i = 0; i < count; i++)
 			tmpArray[i] = items[i];
 
 		return tmpArray;

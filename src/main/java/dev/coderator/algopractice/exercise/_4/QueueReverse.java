@@ -10,12 +10,12 @@ public class QueueReverse {
 
 	public QueueReverse(int... items) {
 		queue = new LinkedList<>();
-		for (int item : items)
+		for (var item : items)
 			queue.add(item);
 	}
 
 	public void reverse() {
-		Stack<Integer> stack = new Stack();
+		var stack = new Stack<Integer>();
 		while (!queue.isEmpty())
 			stack.push(queue.remove());
 

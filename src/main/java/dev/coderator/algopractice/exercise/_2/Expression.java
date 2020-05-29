@@ -11,9 +11,9 @@ public class Expression {
 		if (Objects.isNull(expression))
 			throw new IllegalArgumentException("the input expression should not be null!");
 
-		Stack<Character> stack = new Stack<>();
+		var stack = new Stack<Character>();
 
-		for (char ch : expression.toCharArray())
+		for (var ch : expression.toCharArray())
 			if (isLeftBracket(ch))
 				stack.push(ch);
 			else if (isRightBracket(ch) &&

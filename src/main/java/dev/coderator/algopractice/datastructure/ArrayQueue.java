@@ -25,7 +25,7 @@ public class ArrayQueue {
 		if (isEmpty())
 			throw new IllegalStateException();
 
-		int value = items[front];
+		var value = items[front];
 		front = (front + 1) % items.length;
 		count--;
 
@@ -45,8 +45,8 @@ public class ArrayQueue {
 	}
 
 	public int[] toArray() {
-		int[] result = new int[count];
-		for (int i = 0; i < count; i++)
+		var result = new int[count];
+		for (var i = 0; i < count; i++)
 			result[i] = items[i % count];
 
 		return result;

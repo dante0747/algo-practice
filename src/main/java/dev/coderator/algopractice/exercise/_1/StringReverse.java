@@ -9,11 +9,11 @@ public class StringReverse {
 		if (Objects.isNull(input))
 			throw new IllegalArgumentException("input string should not be null!");
 
-		Stack<Character> letters = new Stack<>();
-		for (char c : input.toCharArray())
+		var letters = new Stack<Character>();
+		for (var c : input.toCharArray())
 			letters.push(c);
 
-		StringBuilder builder = new StringBuilder(input.length());
+		var builder = new StringBuilder(input.length());
 		while (!letters.isEmpty())
 			builder.append(letters.pop());
 

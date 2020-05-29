@@ -17,12 +17,12 @@ public class LinkedList {
 	private Node last;
 
 	public LinkedList(int... items) {
-		for (int item : items)
+		for (var item : items)
 			addNode(item);
 	}
 
 	private void addNode(int item) {
-		Node node = new Node(item);
+		var node = new Node(item);
 
 		if (isEmpty())
 			first = last = node;
@@ -44,9 +44,9 @@ public class LinkedList {
 		if (k < 1)
 			throw new IllegalArgumentException();
 
-		int counter = 0;
-		Node current = first;
-		Node target = first;
+		var counter = 0;
+		var current = first;
+		var target = first;
 		while (Objects.nonNull(current)) {
 			if (counter++ >= k)
 				target = target.next;
