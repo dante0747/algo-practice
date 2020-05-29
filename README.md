@@ -16,13 +16,13 @@ solution and some unit tests that cover the edge cases.
 BTW, any contribution to make the solutions efficient and optimized is very welcome 😉
 
 ## Programming Language
-**Java 8** 😎
+**Java 11** 😎
 
 ## References
 - [Ultimate Data Structures & Algorithms course by Mosh Hamedani](https://codewithmosh.com/p/data-structures-algorithms)
 
 ## Status: Under Development
 
-Implemented data structures: **Array**, **Linked List**, **Stack**, **Queue**, **Priority Queue**
+Implemented data structures: **Array**, **Linked List**, **Stack**, **Queue**, **Priority Queue**, **Hash Table**
 
 Number of exercises: **7**
