@@ -1,8 +1,9 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.array;
 
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
+import dev.coderator.algopractice.datastructure.array.Array;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

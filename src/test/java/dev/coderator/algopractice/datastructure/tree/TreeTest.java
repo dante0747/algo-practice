@@ -1,5 +1,6 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.tree;
 
+import dev.coderator.algopractice.datastructure.tree.Tree;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

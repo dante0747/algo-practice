@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.stack;
 
 import java.util.Arrays;
 

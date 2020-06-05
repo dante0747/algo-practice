@@ -1,5 +1,6 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.queue;
 
+import dev.coderator.algopractice.datastructure.queue.PriorityArrayQueue;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

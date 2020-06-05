@@ -1,5 +1,6 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.linkedlist;
 
+import dev.coderator.algopractice.datastructure.linkedlist.LinkedList;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

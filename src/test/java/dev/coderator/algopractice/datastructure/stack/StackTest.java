@@ -1,5 +1,6 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.stack;
 
+import dev.coderator.algopractice.datastructure.stack.Stack;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

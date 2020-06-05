@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.hashtable;
 
 import java.util.*;
 import java.util.LinkedList;

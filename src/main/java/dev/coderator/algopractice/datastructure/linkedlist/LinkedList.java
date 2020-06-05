@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.linkedlist;
 
 import java.util.NoSuchElementException;
 import java.util.Objects;

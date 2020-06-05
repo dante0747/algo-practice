@@ -1,5 +1,6 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.hashtable;
 
+import dev.coderator.algopractice.datastructure.hashtable.HashTable;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;

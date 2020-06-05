@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.array;
 
 import java.util.NoSuchElementException;
 

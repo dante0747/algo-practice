@@ -1,4 +1,4 @@
-package dev.coderator.algopractice.datastructure;
+package dev.coderator.algopractice.datastructure.tree;
 
 import java.util.LinkedList;
 import java.util.Objects;

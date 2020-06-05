@@ -2,7 +2,6 @@ package dev.coderator.algopractice.exercise._5;
 
 import java.util.Arrays;
 
-import dev.coderator.algopractice.datastructure.ArrayQueue;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
