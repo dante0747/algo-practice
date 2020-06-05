@@ -3,7 +3,7 @@ package dev.coderator.algopractice.datastructure.tree;
 import java.util.LinkedList;
 import java.util.Objects;
 
-public class Tree {
+public class BinarySearchTree {
 	private class Node {
 		private int value;
 		private Node rightChild;
@@ -22,7 +22,7 @@ public class Tree {
 	private int size;
 	private Node root;
 
-	public Tree(int value) {
+	public BinarySearchTree(int value) {
 		this.root = new Node(value);
 	}
 
