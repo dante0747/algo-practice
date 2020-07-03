@@ -129,10 +129,9 @@ public class BinarySearchTree {
 	}
 
 	// O(log(n))
-
 	/**
 	 * This method finds the minimum value in a binary search tree.
-	 * Note that we can't this algorithm in a simple binary tree because only in a BST the left most node is always the
+	 * Note that we can't use this algorithm in a simple binary tree because only in a BST the left most node is always the
 	 * smallest one.
 	 *
 	 * Time complexity: O(log n)
